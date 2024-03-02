@@ -38,8 +38,8 @@
         	<div class="collapse navbar-collapse" id="navigation-example"> 
         		<ul class="nav navbar-nav navbar-right">
                     @guest
-                        <li><a href="{{ route('login') }}">Login</a></li>
-                        <li><a href="{{ route('register') }}">Register</a></li>
+                        <li><a href="{{ route('login') }}">Ingresar</a></li>
+                        <li><a href="{{ route('register') }}">Registro</a></li>
                     @else
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
@@ -51,7 +51,7 @@
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                                     document.getElementById('logout-form').submit();">
-                                        Logout
+                                        Cerrar Sesión
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" 
