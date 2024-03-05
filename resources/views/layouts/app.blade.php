@@ -22,7 +22,7 @@
 </head>
 
 <body class="@yield('body-class')">
-	<nav class="navbar navbar-transparent navbar-absolute">
+ 	<nav class="navbar navbar-transparent navbar-absolute">
     	<div class="container">
         	<!-- Brand and toggle get grouped for better mobile display -->
         	<div class="navbar-header">
